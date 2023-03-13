@@ -1,11 +1,6 @@
-// create a function that will calculate the total amount of the bill and the tip
-// create a function that will calculate the average of the tips
-// create a function that will calculate the average of the total amount of the bill and the tip
-// bill <= 50 = Tip 15%
-// bill > 50 = Tip 20%
-
-// Test Data
-// bills = [124, 48, 268, 180, 42]
-
 'use strict';
-const c = console.log.bind(this);
+// Write a function printEvenNumbers that takes a number as an argument and prints all the even numbers between 0 and that number (inclusive).
+
+// <---------- Do Not Touch the Code Beyond this line ----------------------------->
+printEvenNumbers(10); // Expected output: 0 2 4 6 8 10
+printEvenNumbers(5); // Expected output: 0 2 4
