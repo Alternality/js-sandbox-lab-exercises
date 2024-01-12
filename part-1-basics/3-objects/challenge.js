@@ -3,7 +3,15 @@
 
 'use strict';
 const c = console.log.bind(this);
+function describePerson(person){
+  const collectOne=("My name is "+ person.name + " and I am "+ person.age +" years old.");
+  return collectOne;
 
+}
+function describeBook(book){
+  const collectTwo=("The book "+ book.title + " by "+ book.author +" was published in "+ book.year +".");
+  return collectTwo;
+}
 // <---------- Do Not Touch the Code Beyond this line ----------------------------->
 console.log(describePerson({ name: 'John', age: 30 })); // Expected output: "My name is John and I am 30 years old."
 console.log(describePerson({ name: 'Alice', age: 25 })); // Expected output: "My name is Alice and I am 25 years old."

@@ -1,7 +1,41 @@
 'use strict';
 const c = console.log.bind(this);
 // Start Here
-
+function temperatureConversion(Celsius){
+  // Code Here
+  let fahrenheit =(Celsius * 9/5) + 32;
+  c(fahrenheit); 
+  return fahrenheit;
+}
+    
+function cylinderVolume(Radius, Heigth){
+  // Code Here
+  const r = 3.14159 
+  const volume  = r * Radius**2 * Heigth; 
+  c(volume);
+  return volume;
+}
+    
+function calculateRectangleArea(Length, Width){
+  // Code Here
+  const area = Length*Width;
+  c(area);
+  return area;
+}
+    
+function calculateAverage(Num1, Num2){
+  // Code Here
+  const average = (Num1 + Num2) / 2;
+  c(average);
+  return average;
+}
+    
+function kilometersToMiles(distanceInKilo){
+  // Code Here
+  const miles = (distanceInKilo * 0.621372);
+  c(miles);
+  return miles; 
+}
 // <---------- Do Not Touch the Code Beyond this line ----------------------------->
 function testTemperatureConversion() {
   // Test 1: 0°C should equal 32°F
